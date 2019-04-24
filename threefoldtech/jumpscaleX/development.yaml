@@ -1,7 +1,13 @@
 buildscripts:
  - utils/flist.sh
+ - utils/flist_autostart.sh
 
 utils/flist.sh:
+  baseimage: ubuntu:18.04
+  archives: /tmp/archives
+  artifact: JSX.tar.gz
+
+utils/flist_autostart.sh:
   baseimage: ubuntu:18.04
   archives: /tmp/archives
   artifact: JSX.tar.gz
