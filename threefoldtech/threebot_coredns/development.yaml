@@ -1,0 +1,12 @@
+buildscripts:
+ - autobuild/threebot_coredns.sh
+ - autobuild/threebot_coredns_autostart.sh
+
+autobuild/threebot_coredns.sh:
+  archives: /tmp/archives
+  artifact: threebot_coredns.tar.gz
+  
+autobuild/threebot_coredns_autostart.sh:
+  archives: /tmp/archives
+  artifact: threebot_coredns.tar.gz
+  tag: threebot_coredns-autostart
