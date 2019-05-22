@@ -6,6 +6,7 @@ buildscripts:
 autobuild/traefik.sh:
   archives: /tmp/archives
   artifact: traefik.tar.gz
+  tag: traefik
 
 autobuild/threebot_coredns.sh:
   archives: /tmp/archives
