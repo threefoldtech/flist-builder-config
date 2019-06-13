@@ -1,6 +1,7 @@
 buildscripts:
  - autobuild/tcprouter.sh
  - autobuild/redis_coredns.sh
+ tag: corednsredis
 
 autobuild/tcprouter.sh:
   archives: /tmp/archives
