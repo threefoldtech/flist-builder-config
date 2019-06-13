@@ -1,0 +1,12 @@
+buildscripts:
+ - autobuild/tcprouter.sh
+ - autobuild/redis_coredns.sh
+
+autobuild/tcprouter.sh:
+  archives: /tmp/archives
+  artifact: tcprouter.tar.gz
+  tag: tcprouter
+
+autobuild/redis_coredns.sh:
+  archives: /tmp/archives
+  artifact: redis_coredns.tar.gz
