@@ -13,7 +13,7 @@ autobuild/redis_coredns.sh:
   artifact: redis_coredns.tar.gz
   tag: corednsredis
   
-autobuild/gateway.sh:
+autobuild/tf_gateway.sh:
   archives: /tmp/archives
   artifact: gateway.tar.gz
   tag: tf-gateway
