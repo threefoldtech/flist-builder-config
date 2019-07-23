@@ -1,0 +1,8 @@
+buildscripts:
+ - autobuild/zflist.sh
+
+autobuild/zflist.sh:
+  archives: /tmp/archives
+  baseimage: maxux/basebuild
+  artifact: zflist.tar.gz
+  format: binary
