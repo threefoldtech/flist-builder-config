@@ -1,7 +1,0 @@
-buildscripts:
- - autobuild/zos.sh
-
-autobuild/zos.sh:
-  archives: /tmp/archives
-  artifact: zos.tar.gz
-  format: binary
