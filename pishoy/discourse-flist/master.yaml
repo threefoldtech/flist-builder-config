@@ -1,0 +1,8 @@
+buildscripts:
+ - flist.sh
+
+flist.sh:
+  baseimage: ubuntu:18.04
+  archives: /root/archives
+  artifact: discourse.tar.gz
+  tag: autostart
