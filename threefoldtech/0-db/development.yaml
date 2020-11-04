@@ -3,10 +3,12 @@ buildscripts:
  - autobuild/0-db-release.sh
 
 autobuild/0-db.sh:
+  baseimage: ubuntu:18.04
   archives: /tmp/archives
   artifact: 0-db.tar.gz
 
 autobuild/0-db-release.sh:
+  baseimage: ubuntu:18.04
   archives: /tmp/archives
   artifact: 0-db-release.tar.gz
   tag: release
